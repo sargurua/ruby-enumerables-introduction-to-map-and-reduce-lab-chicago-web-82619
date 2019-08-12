@@ -20,3 +20,12 @@ def map_to_double(source_array)
   end
   return source_array
 end
+
+def map_to_square(source_array)
+  i = 0
+  while i < source_array.length do
+    source_array[i] *= source_array[i]
+    i += 1
+  end
+  return source_array
+end
